@@ -1,6 +1,6 @@
-public class marsApplication {
-    public static void main (String args[]){
-        Robot.WalkingRobot.TwoLeggedWalkingRobot.ScienceRobot.MarsRobot spirit = new Robot.WalkingRobot.TwoLeggedWalkingRobot.ScienceRobot.MarsRobot();
+public class MarsApplication {
+    public static void main(String[] arguments) {
+        MarsRobot spirit = new MarsRobot();
         spirit.status = "eksploracja";
         spirit.speed = 2;
         spirit.temperature = -60;
