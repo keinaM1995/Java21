@@ -15,5 +15,6 @@ public class MarsApplication {
         System.out.println("Sprawdzenie temperatury.");
         spirit.checkTemperature();
         spirit.showAttributes();
+
     }
 }
